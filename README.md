@@ -2,6 +2,11 @@
 
 > Ten hands-on projects building toward a full enterprise SOC simulation - Microsoft Sentinel, Defender XDR, KQL threat hunting, SOAR automation, Microsoft Purview, Security Copilot and identity threat detection with Microsoft Entra ID. Built as practical, evidence-backed preparation for the Microsoft SC-200 (Security Operations Analyst Associate) and SC-300 (Identity and Access Administrator Associate) certifications.
 
+[![SIEM](https://img.shields.io/badge/SIEM-Microsoft%20Sentinel-0078D4)](#)
+[![XDR](https://img.shields.io/badge/XDR-Microsoft%20Defender-0078D4)](#)
+[![Identity](https://img.shields.io/badge/Identity-Microsoft%20Entra%20ID-0078D4)](#)
+[![Language](https://img.shields.io/badge/Query%20Language-KQL-blue)](#)
+[![Cert](https://img.shields.io/badge/Aligned%20to-SC--200%20%7C%20SC--300-yellow)](#)
 
 **Author:** Mojalefa "Jeff" Letsoara - SOC Analyst, SC-200 & SC-300 Candidate
 
@@ -9,7 +14,7 @@
 
 ## Why this portfolio exists
 
-Each project here is a real, hands-on build - infrastructure stood up, attacks simulated, detections engineered, incidents triaged, and lessons documented not a tutorial follow-along. The goal is to demonstrate practical SOC Level 1/2 capability across the breadth of a modern Microsoft security stack backed by a reproducible build and a written record of what broke and how it was fixed.
+Each project here is a real, hands-on build - infrastructure stood up, attacks simulated, detections engineered, incidents triaged and lessons documented, not a tutorial follow-along. The goal is to demonstrate practical SOC Level 1 capability across the breadth of a modern Microsoft security stack, with every claim backed by a reproducible build and a written record of what broke and how it was fixed.
 
 All lab environments are built in isolated Azure subscriptions and **decommissioned after each project's incident queue is fully resolved** to avoid ongoing cloud spend. Each project's README and report stand as the permanent evidence record.
 
@@ -23,17 +28,22 @@ All lab environments are built in isolated Azure subscriptions and **decommissio
 | 04 | SOC Automation with Logic Apps | SOAR playbooks - automated triage, enrichment and response actions triggered from Sentinel incidents | 🔄 Planned |
 | 05 | Microsoft Purview Insider Investigation | Insider risk management, data loss prevention and compliance-driven investigation workflow | 🔄 Planned |
 | 06 | Security Copilot Assisted Investigations | AI-assisted incident investigation and response acceleration using Microsoft Security Copilot | 🔄 Planned |
-| Capstone | Enterprise SOC Simulation | All of the above integrated into one simulated enterprise environment — multi-stage attack, full detection-to-response chain | 🔄 Planned |
 
 ### Identity & Access track (SC-300)
 
-A SOC analyst increasingly lives in identity telemetry - most modern intrusions involve a compromised or misused identity at some stage and Defender/Sentinel's UEBA and Entra ID Protection signals are core SOC tooling, not a separate discipline. These projects are framed around *investigating and detecting* identity-based threats rather than pure identity administration, so they stay directly relevant to a SOC internship rather than reading as a sysadmin detour.
+A SOC analyst increasingly lives in identity telemetry and most modern intrusions involve a compromised or misused identity at some stage and Defender/Sentinel's UEBA and Entra ID Protection signals are core SOC tooling, not a separate discipline. These projects are framed around *investigating and detecting* identity-based threats rather than pure identity administration so they stay directly relevant to a SOC internship rather than reading as a sysadmin detour.
 
 | # | Project | Focus | Status |
 |---|---|---|---|
-| 08 | Entra ID Conditional Access & Risky Sign-In Investigation | Conditional Access policy design (MFA enforcement, location/risk-based blocking); simulating and investigating risky sign-ins (impossible travel, anonymous IP, leaked credentials) via Entra ID Protection; correlating with the Entra ID Sign-in workbook in Sentinel. Mapped to MITRE ATT&CK T1078 - Valid Accounts | 🔄 Planned |
-| 09 | Privileged Identity Management (PIM) - Privilege Escalation Investigation | Configuring PIM for just-in-time eligible role assignments; simulating a privilege-escalation scenario; investigating activation audit logs; correlating against EventID 4672 privilege-use telemetry from Project 01 | 🔄 Planned |
-| 10 | Identity Governance - Access Reviews & Least-Privilege Audit | Access reviews and entitlement management; documenting a compliance-driven audit of stale/excessive permissions; feeding findings into the insider-risk angle from Project 05 | 🔄 Planned |
+| 07 | Entra ID Conditional Access & Risky Sign-In Investigation | Conditional Access policy design (MFA enforcement, location/risk-based blocking); simulating and investigating risky sign-ins (impossible travel, anonymous IP, leaked credentials) via Entra ID Protection; correlating with the Entra ID Sign-in workbook in Sentinel. Mapped to MITRE ATT&CK T1078 - Valid Accounts | 🔄 Planned |
+| 08 | Privileged Identity Management (PIM) - Privilege Escalation Investigation | Configuring PIM for just-in-time eligible role assignments; simulating a privilege-escalation scenario; investigating activation audit logs; correlating against EventID 4672 privilege-use telemetry from Project 01 | 🔄 Planned |
+| 09 | Identity Governance - Access Reviews & Least-Privilege Audit | Access reviews and entitlement management; documenting a compliance-driven audit of stale/excessive permissions; feeding findings into the insider-risk angle from Project 05 | 🔄 Planned |
+
+### Capstone
+
+| # | Project | Focus | Status |
+|---|---|---|---|
+| Capstone | Enterprise SOC Simulation | All nine projects integrated into one simulated enterprise environment - multi-stage attack spanning endpoint, identity and cloud; full detection-to-response chain across Sentinel, Defender XDR and Entra ID | 🔄 Planned |
 
 ## Skills demonstrated across the portfolio
 
@@ -62,6 +72,6 @@ A SOC analyst increasingly lives in identity telemetry - most modern intrusions 
 
 ---
 
-**Connect:** Feel free to reach out via LinkedIn.
-https://www.linkedin.com/in/mojalefa-l-letsoara283b5a211/
+**Connect:** open to SOC analyst / cybersecurity analyst internship and entry-level opportunities. Feel free to reach out via LinkedIn.
+
     
