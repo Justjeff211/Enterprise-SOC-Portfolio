@@ -66,6 +66,7 @@ A SOC analyst increasingly lives in identity telemetry and most modern intrusion
 |---|---|
 | SC-900 - Security, Compliance, Identity Fundamentals | ✅ Completed |
 | AZ-900 - Azure Fundamentals | ✅ Completed |
+| CompTIA Security+ | ✅ Completed |
 | CompTIA CySA+ | ✅ Completed |
 | **SC-200 - Security Operations Analyst** | 🔄 Candidate, actively preparing |
 | **SC-300 - Identity and Access Administrator** | 🔄 Candidate, scheduled end of July 2026 |
