@@ -253,8 +253,8 @@ AzureActivity
 | AZ-900 - Azure Fundamentals | ✅ Completed |
 | CompTIA Security+ | ✅ Completed |
 | CompTIA CySA+ | ✅ Completed |
-| **SC-200 - Security Operations Analyst** | 🔄 Candidate, actively preparing |
-| SC-300 - Identity and Access Administrator | 📅 Scheduled, end of July 2026 |
+| **SC-200 - Security Operations Analyst** | ✅ Completed |
+| AZ-104 - Microsoft Azure Administrator | 📅 Scheduled end of July 2026 |
 
 ---
 
